@@ -1,5 +1,12 @@
 # Changelog
 
+## [14.6.11](https://github.com/amzxyz/rime_wanxiang/compare/v14.6.10...v14.6.11) (2026-02-05)
+
+
+### 🐛 Bug 修复
+
+* 反查模式也纳入命令模式 ([9cff3cb](https://github.com/amzxyz/rime_wanxiang/commit/9cff3cb99804b1a69ac36bd5f1d06e287cbab87b))
+
 ## [14.6.10](https://github.com/amzxyz/rime_wanxiang/compare/v14.6.9...v14.6.10) (2026-02-04)
 
 
