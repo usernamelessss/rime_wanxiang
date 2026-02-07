@@ -1,0 +1,13 @@
+﻿# default.yaml 补丁文件
+patch:
+  #  设置候选词个数
+  menu:
+    page_size: 6
+  # 使用 __append: 后面跟着你想增加的项
+  # 直接在补丁文件（patch）里写 schema_list: [...]，它会覆盖掉原有的整个列表，而不是追加。要实现“新增元素”而不破坏原有配置，需要使用 Rime 特有的索引下标或 "__append:" 语法。
+  # schema_list/@last/schema: wanxiang_t9 # 九键方案
+  # schema_list/schema/+: wanxiang_t9 # 九键方案
+  # schema_list/__append:
+  #   - schema: wanxiang_t9  # 九键方案
+  schema_list:
+    - schema: wanxiang_t9  # 九键方案

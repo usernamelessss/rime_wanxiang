@@ -1,37 +1,3 @@
-
-# 万象系列方案: 适用 IOS 端元书输入法
-
----------------------
-
-![wallhaven-xe6opv.jpg](https://zycs-img-3ao.pages.dev/v2/SczpHXc.jpeg)
-
----
-
-### ⌨️ 配置 t9 九键方案
-
-> 👍 原万象拼音(基础版)已经配置好了, 但是并没有打开注释, 需要打开.
-
-
-
-> [!NOTE]
-> 配置的时候, 尽量打补丁, 这样更新的时候, 自己定义的参数才不会被覆盖.
-
-- <span style="font-weight:bold;">default.custom.yaml</span>
-
-  ```yaml
-  # default.yaml 补丁文件
-  patch:
-    #  设置候选词个数
-    menu:
-      page_size: 6
-    schema_list:
-      - schema: wanxiang_t9  # 九键方案
-  ```
-
-
-- <span style="font-weight:bold;">wanxiang_t9.custom.yaml</span>
-
-```yaml
 patch:
   # 拼写设定
   speller:
@@ -56,7 +22,7 @@ patch:
       - derive/^([jqxy])u/$1v/
       - derive/^([JQXY])U/$1V/
       - xlit/ABCDEFGHIJKLMNOPQRSTUVWXYZ/22233344455566677778889999/
-      # ### 九宫格映射 ✍️ 这是原来没有的
+      # ### 九宫格映射
       - derive/[abc]/2/
       - derive/[def]/3/
       - derive/[ghi]/4/
@@ -65,18 +31,3 @@ patch:
       - derive/[pqrs]/7/
       - derive/[tuv]/8/
       - derive/[wxyz]/9/
-```
-
-这样就可以在基本不修改原来文件的基础上完成配置.
-
----
-
-### 🤔 Some
-
-- 📦 [语法模型下载](https://github.com/amzxyz/RIME-LMDG/releases/download/LTS/wanxiang-lts-zh-hans.gram)
-
-- ⌨️ [万象拼音](https://github.com/amzxyz/rime_wanxiang)
-
-- 🧭 [RIME 定制手册(英文)](https://deepwiki.com/sbxlm/librime/5.1-configuration-customization)
-
-- 🧭 [RIME 官方文档](https://github.com/rime/home/wiki/RimeWithSchemata)
