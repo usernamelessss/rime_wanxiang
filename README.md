@@ -9,12 +9,8 @@
 
 ### ⌨️ 配置 t9 九键方案
 
-> 👍 原万象拼音(基础版)已经配置好了, 但是并没有打开注释, 需要打开.
-
-
-
 > [!NOTE]
-> 配置的时候, 尽量打补丁, 这样更新的时候, 自己定义的参数才不会被覆盖.
+> 👍 原万象拼音(基础版)已经配置好了, 但是并没有打开注释, 需要打开.配置的时候, 尽量打补丁, 这样更新的时候, 自己定义的参数才不会被覆盖.
 
 - <span style="font-weight:bold;">default.custom.yaml</span>
 
@@ -82,3 +78,5 @@
 - 🧭 [RIME 定制手册(英文)](https://deepwiki.com/sbxlm/librime/5.1-configuration-customization)
 
 - 🧭 [RIME 官方文档](https://github.com/rime/home/wiki/RimeWithSchemata)
+
+- ⬇️ [方案下载](https://codeload.github.com/usernamelessss/rime_wanxiang/zip/refs/heads/wanxiang)
